@@ -1,5 +1,5 @@
 # KahootFlooder
-Floods kahoot.it with accounts
+Floods kahoot.it with bots
 
 Must do this command before running:
  - Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
