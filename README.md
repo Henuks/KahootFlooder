@@ -1,5 +1,5 @@
 # KahootFlooder
 Floods kahoot.it with accounts
 
-
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+Must do this command before running:
+-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
