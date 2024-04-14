@@ -1,6 +1,6 @@
 #config
 $code="7097915"
-$amount=10
+$amount=50
 $name="Test"
 
 #code
@@ -24,8 +24,6 @@ $wshell.SendKeys('{tab}')
 Start-Sleep -Milliseconds 10
 $wshell.SendKeys($code)
 Start-Sleep -Milliseconds 10
-$wshell.SendKeys('{tab}')
-Start-Sleep -Milliseconds 10
 $wshell.SendKeys('{enter}')
 Start-Sleep -Milliseconds 700
 $wshell.SendKeys('{tab}')
@@ -33,8 +31,6 @@ Start-Sleep -Milliseconds 10
 $wshell.SendKeys('{tab}')
 Start-Sleep -Milliseconds 10
 $wshell.SendKeys($name+" "+$r+$n)
-Start-Sleep -Milliseconds 10
-$wshell.SendKeys('{tab}')
 Start-Sleep -Milliseconds 10
 $wshell.SendKeys('{enter}')
 Start-Sleep -Milliseconds 20
